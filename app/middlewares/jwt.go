@@ -1,10 +1,11 @@
 package middlewares
 
 import (
-	"github.com/869413421/chatgpt-web/app/http/controllers"
-	"github.com/869413421/chatgpt-web/pkg/auth"
-	"github.com/gin-gonic/gin"
+	"chatgpt-web/app/http/controllers"
+	"chatgpt-web/pkg/auth"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
 )
 
 var base = controllers.BaseController{}

@@ -1,9 +1,10 @@
 package bootstrap
 
 import (
-	"github.com/869413421/chatgpt-web/routes"
-	"github.com/gin-gonic/gin"
+	"chatgpt-web/routes"
 	"sync"
+
+	"github.com/gin-gonic/gin"
 )
 
 var router *gin.Engine

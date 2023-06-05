@@ -1,4 +1,5 @@
-module github.com/869413421/chatgpt-web
+// module github.com/869413421/chatgpt-web
+module chatgpt-web
 
 go 1.18
 

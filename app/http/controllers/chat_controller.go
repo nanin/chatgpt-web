@@ -1,8 +1,8 @@
 package controllers
 
 import (
+	"chatgpt-web/pkg/types"
 	"context"
-	"github.com/869413421/chatgpt-web/pkg/types"
 	"net"
 	"net/http"
 	"net/url"
@@ -12,8 +12,9 @@ import (
 	gogpt "github.com/sashabaranov/go-openai"
 	"golang.org/x/net/proxy"
 
-	"github.com/869413421/chatgpt-web/config"
-	"github.com/869413421/chatgpt-web/pkg/logger"
+	"chatgpt-web/config"
+	"chatgpt-web/pkg/logger"
+
 	"github.com/gin-gonic/gin"
 )
 
