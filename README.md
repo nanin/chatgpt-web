@@ -69,7 +69,7 @@ $ tail -f run.log
 
 ````
 # 获取项目
-$ git clone https://github.com/869413421/chatgpt-web.git
+$ git clone https://github.com/nanin/chatgpt-web.git
 
 # 进入项目目录
 $ cd chatgpt-web

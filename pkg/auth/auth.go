@@ -1,12 +1,13 @@
 package auth
 
 import (
+	"chatgpt-web/pkg/model/user"
 	"errors"
-	"github.com/869413421/chatgpt-web/pkg/model/user"
-	"github.com/dgrijalva/jwt-go"
-	"github.com/gin-gonic/gin"
 	"strings"
 	"time"
+
+	"github.com/dgrijalva/jwt-go"
+	"github.com/gin-gonic/gin"
 )
 
 var (
